@@ -1,0 +1,183 @@
+body {
+  background: url('https://wallpapercave.com/wp/wp2925459.png');
+}
+
+p, h1, h2, h3, h4, h5, a {
+  font-family: 'Montserrat', sans-serif;
+}
+/*=== navbar ===*/
+
+.dropdown-toggle {
+  font-size: 0.73rem;
+  font-weight: 500;
+}
+
+/*=== 1. carousel ===*/
+
+.button1carousel1 {
+  border: 1px solid gray !important;
+  border-radius: 20px !important;
+  padding: 10px 38px 10px 38px !important;
+}
+
+.button1carousel1:hover {
+  background: gray;
+  color: white !important;
+  border: 1px solid gray !important;
+}
+
+.button1carousel1-fekete {
+  border: 1px solid white !important;
+  border-radius: 20px !important;
+  padding: 10px 38px 10px 38px !important;
+}
+
+.button1carousel1-fekete:hover {
+  background: white;
+  color: black !important;
+}
+
+.button2carousel1 {
+  border: 0 !important;
+  border-radius: 20px !important;
+  padding: 10px 38px 10px 38px !important;
+}
+
+.button2carousel1:hover {
+  background: black;
+  color: white !important;
+}
+
+.caption-bal {
+  color: black !important;
+  opacity: 1;
+  font-size: 1.1rem;
+  height: 80%;
+
+}
+
+.caption-jobb {
+  color: black !important;
+  opacity: 1;
+  font-size: 1.1rem;
+  height: 80%;
+}
+
+.carousel-control-next {
+  width: 5% !important;
+  background-color: darkgrey !important;
+}
+
+.carousel-control-prev {
+  width: 5% !important;
+  background-color: darkgrey !important;
+}
+
+.fekete-hatter {
+  color: white !important;
+  opacity: 1;
+  font-size: 1.3rem;
+}
+
+.carousel-caption h5 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+/*=== 1. carousel váltó gömbök ===*/
+
+.indicator-color {
+  background-color: grey !important;
+}
+
+/*=== 2. carousel ===*/
+
+.caption-3 p,
+h5 {
+  color: black;
+}
+
+.caption3-p {
+  font-size: 1.4rem;
+}
+
+/*=== 5db kártya ===*/
+
+.text {
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: underline;
+  color: black;
+}
+
+.text-1 {
+  color: gray;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.text-1:hover {
+  color: black;
+}
+
+.card {
+  height: 100%;
+}
+
+.cardpicture {
+  width: 210px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*=== Különleges carousel ===*/
+
+.bg {
+  background: url('http://1.bp.blogspot.com/-5pDiD2Y7bZE/UP4Y-mc_b5I/AAAAAAAABhY/_DvW_Np-Vwc/s1600/IMG_3148+pano.jpg');
+}
+
+.amazingslider-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem !important;
+  margin-top: 2rem !important;
+}
+
+
+
+/*=== kereső sáv ===*/
+
+.text-2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+}
+
+.form-control {
+  border: 1px solid gray !important;
+  border-radius: 20px !important;
+}
+
+/*=== footer-1 ===*/
+
+.footer1-h {
+  font-size: 0.9rem;
+  font-weight: 500
+}
+
+.footer1-text {
+  margin-bottom: 0.1rem;
+  font-size: 0.85rem;
+}
+
+/*=== footer2 ===*/
+
+.footer2-h {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: white;
+}
+
+.fa-2x {
+  color: white;
+}
