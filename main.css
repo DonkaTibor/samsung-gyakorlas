@@ -2,9 +2,17 @@ body {
   background: url('https://wallpapercave.com/wp/wp2925459.png');
 }
 
-p, h1, h2, h3, h4, h5, a {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
   font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
 }
+
 /*=== navbar ===*/
 
 .dropdown-toggle {
@@ -84,6 +92,20 @@ p, h1, h2, h3, h4, h5, a {
   font-weight: 500;
 }
 
+/*=== 1. carousel mobile ===*/
+
+.carouselmobil {
+  font-size: 1.3rem !important;
+}
+
+.carouselmobile-text2 {
+  font-size: 1rem !important;
+}
+
+.kulonc {
+  color: white;
+}
+
 /*=== 1. carousel váltó gömbök ===*/
 
 .indicator-color {
@@ -98,13 +120,32 @@ h5 {
 }
 
 .caption3-p {
-  font-size: 1.4rem;
+  font-size: 1rem;
+  color: black !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.caption- {
+  background: gray;
+  opacity: 0.89;
+  width: ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*=== 2.carousel medium ===*/
+
+.carousel2-text {
+  font-size: 0.8rem;
+  text-align: center;
+  opacity: 0.9;
 }
 
 /*=== 5db kártya ===*/
 
 .text {
-  font-size: 30px;
+  font-size: 1.5rem;
   font-weight: 500;
   text-decoration: underline;
   color: black;
@@ -112,7 +153,7 @@ h5 {
 
 .text-1 {
   color: gray;
-  font-size: 30px;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -125,7 +166,13 @@ h5 {
 }
 
 .cardpicture {
-  width: 210px !important;
+  max-width: 18rem;
+  max-height: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-body {
   margin-left: auto;
   margin-right: auto;
 }
@@ -148,7 +195,7 @@ h5 {
 /*=== kereső sáv ===*/
 
 .text-2 {
-  font-size: 30px;
+  font-size: 1.5rem;
   font-weight: 400;
   color: black;
 }
@@ -162,7 +209,7 @@ h5 {
 
 .footer1-h {
   font-size: 0.9rem;
-  font-weight: 500
+  font-weight: 700
 }
 
 .footer1-text {
