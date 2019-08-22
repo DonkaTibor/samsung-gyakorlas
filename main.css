@@ -180,16 +180,34 @@ h5 {
 /*=== Különleges carousel ===*/
 
 .bg {
-  background: url('http://1.bp.blogspot.com/-5pDiD2Y7bZE/UP4Y-mc_b5I/AAAAAAAABhY/_DvW_Np-Vwc/s1600/IMG_3148+pano.jpg');
+  background: url('https://thewallpaper.co//wp-content/uploads/2016/09preview/hd-space-wallpaper-stars-desktop-images-full-hd-earth-wallpaper-space-wallpaper-iphone-free-download-wallpaper-1600x800.jpg');
 }
 
-.amazingslider-wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5rem !important;
-  margin-top: 2rem !important;
+.kulonleges-caption {
+  color: orange;
+  background: dimgry;
+  opacity: 0.9;
+  border-radius: 10px;
+  max-width: 693px;
 }
 
+.kulonleges-text {
+  font-size: 0.7rem;
+  margin-left: 0.2rem;
+  padding: 5px;
+}
+
+.kulonleges-title {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0rem;
+  padding: 1px;
+}
+
+.urhajo {
+  max-height: 386px;
+}
 
 
 /*=== kereső sáv ===*/

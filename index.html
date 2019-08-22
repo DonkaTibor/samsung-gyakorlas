@@ -7,6 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="main.css">
 
+  <!--- teszt carousel --->
+  <link rel="stylesheet" href="css/swiper.min.css">
+
+  <!-- Demo styles -->
+  <style>
+    .swiper-container {
+      width: 100%;
+      padding-top: 1%;
+      padding-bottom: 2%;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 60%;
+      height: ;
+    }
+  </style>
+
   <!--- Google Fonts --->
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
@@ -25,12 +44,6 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js"></script>
 
-  <!-- Insert to your webpage before the </head> -->
-  <script src="sliderengine/jquery.js"></script>
-  <script src="sliderengine/amazingslider.js"></script>
-  <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
-  <script src="sliderengine/initslider-1.js"></script>
-  <!-- End of head section HTML codes -->
 
 
 
@@ -414,23 +427,79 @@
 
     <div class="row ml-1 mr-1 mb-5">
       <div class="col bg">
-        <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:900px;margin:0px auto 0px;">
-          <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
-            <ul class="amazingslider-slides" style="display:none;">
-              <li><img src="images/vd0013_explore_one-giant-leap-for-reality_key_visual__explore_690x386.jpg" alt="A SAMSUNG VILÁGA" title="A SAMSUNG VILÁGA" data-description="Hatalmas ugrás felbontásban" />
-              </li>
-              <li><img src="images/explore_brand_hub_thumbnail_v2.jpg" alt="CES 2019 A SAMSUNGGAL" title="CES 2019 A SAMSUNGGAL" />
-              </li>
-              <li><img src="images/show-us-your-city.jpg" alt="FENYKÉPEZÉS" title="FENYKÉPEZÉS" data-description="Mutasd meg a városod #withGalaxy" />
-              </li>
-              <li><img src="images/what-to-watch-on-netflix.jpg" alt="OTTHONI SZÓRAKOZÁS" title="OTTHONI SZÓRAKOZÁS" data-description="Mit nézzünk 2019-ben a Netflixen" />
-              </li>
-              <li><img src="images/facebook-share.jpg" alt="FILOZÓFIÁNK" title="FILOZÓFIÁNK" data-description="A samsung világa: 1. fejezet" />
-              </li>
-            </ul>
-            <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive JavaScript Image Slideshow">Responsive JavaScript Image Slideshow</a></div>
+
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="kepek/img4.jpg" class="img-fluid" alt="...">
+              <div class="kulonleges-caption">
+                <p class="kulonleges-title">A SAMSUNG VILÁGA</p>
+                <p class="kulonleges-text">Hatalmas ugrás felbontásban</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="kepek/img1.jpg" class="img-fluid" alt="...">
+              <div class="kulonleges-caption">
+                <p class="kulonleges-title">2019 CES A SAMSUNGGAL</p>
+                <p class="kulonleges-text">Ismerd meg a samsung idei innovációit</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="kepek/img3.jpg" class="img-fluid" alt="...">
+              <div class="kulonleges-caption">
+                <p class="kulonleges-title">FÉNYKÉPEZÉS</p>
+                <p class="kulonleges-text">Mutasd meg városod #withGalaxy</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="kepek/img5.jpg" class="img-fluid" alt="...">
+              <div class="kulonleges-caption">
+                <p class="kulonleges-title">OTTHONI SZÓRAKOZÁS</p>
+                <p class="kulonleges-text">Mit nézzünk 2019-ben a Netflixen</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="kepek/img2.jpg" class="img-fluid urhajo" alt="...">
+              <div class="kulonleges-caption">
+                <p class="kulonleges-title">FILOZÓFIÁNK</p>
+                <p class="kulonleges-text">A samsung világa: 1.fejezet</p>
+              </div>
+            </div>
           </div>
+          <!-- Add Pagination -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
+
+        <!-- Swiper JS -->
+        <script src="js/swiper.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false,
+            },
+            coverflowEffect: {
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+            },
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          });
+        </script>
+
       </div>
 
     </div>
@@ -619,6 +688,4 @@
 
 
   </div>
-</body>
-
-</html>
+</body></html>
